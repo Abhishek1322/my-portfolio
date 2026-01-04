@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --background: 153 54% 7%;
+    --foreground: 160 100% 70%;
+
+    --card: 153 54% 10%;
+    --card-foreground: 160 100% 70%;
+
+    --popover: 153 54% 10%;
+    --popover-foreground: 160 100% 70%;
+
+    --primary: 166 100% 70%;
+    --primary-foreground: 153 54% 7%;
+
+    --secondary: 210 44% 16%;
+    --secondary-foreground: 160 100% 70%;
+
+    --muted: 210 44% 16%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 166 100% 70%;
+    --accent-foreground: 153 54% 7%;
+
+    --destructive: 340 65% 47%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 44% 20%;
+    --input: 210 44% 20%;
+    --ring: 166 100% 70%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 153 54% 7%;
+    --sidebar-foreground: 160 100% 70%;
+    --sidebar-primary: 166 100% 70%;
+    --sidebar-primary-foreground: 153 54% 7%;
+    --sidebar-accent: 210 44% 16%;
+    --sidebar-accent-foreground: 160 100% 70%;
+    --sidebar-border: 210 44% 20%;
+    --sidebar-ring: 166 100% 70%;
+  }
+
+  * {
+    @apply border-border box-border;
+  }
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Crimson Text", serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@layer utilities {
+  body::-webkit-scrollbar {
+    width: 0.4em;
+    background-color: #0b192f;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #4c5474;
+    scrollbar-gutter: stable;
+    border-radius: 40px;
+  }
+}
