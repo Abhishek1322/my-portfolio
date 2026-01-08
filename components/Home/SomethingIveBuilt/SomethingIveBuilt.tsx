@@ -36,6 +36,7 @@ export default function SomethingIveBuilt() {
 
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         {/* // TODO : to here  */}
+
         {/* // ?  Project  1 Ens Vision */}
         <div
           data-aos="fade-up"
@@ -168,12 +169,134 @@ export default function SomethingIveBuilt() {
               </Link> */}
 
               <a
-                href="https://app.honor.pet/"
+                href="https://bazzaristainc.com/"
                 target={"_blank"}
                 rel="noreferrer"
               >
                 <div
                   // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"/img/bazzarista.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/bazzarista.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">Bazzarista</span>
+                <a
+                  href="https://bazzaristainc.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Clothing Rental and Resale Platform
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left">
+                  I developed a{" "}
+                  <span className="text-AAsecondary">
+                    clothing rental and resale platform
+                  </span>{" "}
+                  that connects sellers with customers looking to{" "}
+                  <span className="text-AAsecondary">
+                    rent or purchase apparel
+                  </span>{" "}
+                  for various occasions. Sellers can list and manage
+                  <span className="text-AAsecondary"> clothing items</span>, set
+                  rental or selling prices, track availability, and communicate
+                  directly with buyers, while users can easily browse
+                  collections and
+                  <span className="text-AAsecondary">
+                    {" "}
+                    place rental or purchase orders
+                  </span>
+                  . The project emphasized
+                  <span className="text-AAsecondary">
+                    {" "}
+                    intuitive user experience
+                  </span>
+                  ,
+                  <span className="text-AAsecondary">
+                    {" "}
+                    optimized performance
+                  </span>
+                  , and a
+                  <span className="text-AAsecondary">
+                    {" "}
+                    scalable frontend architecture
+                  </span>{" "}
+                  to support a growing marketplace.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">Python</span>
+                <span className="pr-4 z-10">Stripe</span>
+                <span className="pr-4 z-10">Bootstrap</span>
+                <span className="pr-4 z-10">Firebase</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <a
+                  href="https://bazzaristainc.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink
+                    url={"https://bazzaristainc.com/"}
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://app.honor.pet/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
@@ -187,9 +310,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -273,7 +394,7 @@ export default function SomethingIveBuilt() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* // ?  Project 3 */}
         <div
@@ -326,7 +447,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">
-                  Lynnette's Kitchen App
+                  Lynnette's Kitchen
                 </span>
                 <a
                   href="https://www.lynnetteskitchenapp.com/"
