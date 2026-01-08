@@ -7,13 +7,13 @@
 </div>
 
 <p align="center">
-  First iteration of <a href="https://abhi-portfolio-six.vercel.app/" target="_blank">anaflous.com</a>,
+  First iteration of <a href="https://abhishek-js.vercel.app/" target="_blank">abhishek-js.vercel.app/</a>,
   built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and deployed on
   <a href="https://vercel.com/" target="_blank">Vercel</a>.
 </p>
 
 <p align="center">
-  <a href="https://abhi-portfolio-six.vercel.app/" target="_blank">
+  <a href="https://abhishek-js.vercel.app/" target="_blank">
     <img
       src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png"
       width="100"
@@ -26,7 +26,7 @@
 
 ## 📸 Demo
 
-![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
+![demo](https://ibb.co/gb2c2YWR)
 
 ---
 
